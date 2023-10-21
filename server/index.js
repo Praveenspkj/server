@@ -9,14 +9,15 @@ app.use(cors());
 app.use(jsonParser);
 
 app.get('/',(req, res) =>{
-  res.send('Welcome')
+  res.send('CC ASSIGNMENT COMPLETED')
 }
 )
 
-app.get('/first',(req,res)=>{
+app.get('/info',(req,res)=>{
   res.json(
     {
-      data:["ravi","ram","seta","goodies"]
+      sub:"cc",
+      staff:"induleka mam"
     }
   )
 })
