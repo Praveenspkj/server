@@ -9,15 +9,15 @@ app.use(cors());
 app.use(jsonParser);
 
 app.get('/',(req, res) =>{
-  res.send('CC ASSIGNMENT COMPLETED')
+  res.send('CC ASSIGNMENT COMPLETED !')
 }
 )
 
 app.get('/info',(req,res)=>{
   res.json(
     {
-      sub:"cc",
-      staff:"induleka mam"
+      sub:"cc!",
+      staff:"induleka mam!"
     }
   )
 })
